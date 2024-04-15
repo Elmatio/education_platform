@@ -1,0 +1,18 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Math",
+    "slug": "math"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Development",
+    "slug": "development"
+  }
+}
+]
