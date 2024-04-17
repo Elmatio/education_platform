@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Выход{% endblock %}
+
+{% block content %}
+	<h1>Выход из личного кабинета</h1>
+    <div class="module">
+        <p>
+            Вы успешно вышли из своего личного кабинета.
+            Вы можете <a href="{% url 'login' %}">Авторизовать вновь.</a>
+        </p>
+    </div>
+{% endblock %}
