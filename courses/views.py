@@ -18,6 +18,7 @@ from .models import Subject
 from django.views.generic.detail import DetailView
 from students.forms import CourseEnrollForm
 
+
 class CourseListView(TemplateResponseMixin, View):
     model = Course
     template_name = 'courses/course/list.html'
