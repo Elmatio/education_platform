@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-^l=_@%!m-g*s-xxqa4n6n4gax9=$5%7*epzh=xq*42eh!e*%%('
+SECRET_KEY = '4dsfh4%43%#%(#)$%905439345i9i3495i395u929jkfdsljfsioa^l=_@%!m-g*s-xxqa4n6n4gax9=$5%7*epzh=xq*42eh!e*%%('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
@@ -58,6 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'courses.middleware.subdomain_course_middleware',
 ]
 
 ROOT_URLCONF = 'education.urls'
